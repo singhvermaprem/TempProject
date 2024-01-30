@@ -1,0 +1,131 @@
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  background-color: whitesmoke;
+  
+}
+.dispaly-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  background-color: whitesmoke;
+}
+.grid-item-1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-img-1
+{
+
+  height: 70px;
+  width: 150px;
+  }
+.grid-item-2
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: auto;
+  gap: 7px;
+}
+.grid-serach-bar
+{
+  height: 45px;
+  width: 700px;
+  border-radius: 5px;
+  color: black;
+}
+.grid-search-button
+{
+  height: 52px;
+  width: 100px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  background-color: orange;
+  border-color: whitesmoke;
+}
+.grid-item-3
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#selector
+{
+  padding-top: 5px;
+  height: auto;
+  width: auto;
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  text-align: justify;
+  font-weight: 10px;
+  font-size: 20px;
+}
+
+.cars
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#newcars
+{
+  border: none;
+  background-color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+}
+#usedcars
+{
+  border: none;
+  background-color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+}
+#sellcars
+{
+  border: none;
+  background-color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+}
+.secions
+{
+  padding: 20px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid black;
+}
+.carimages
+{
+  height: 200px;
+  width: 300px;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 30px;
+}
+.cardbuttons
+{
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: orange;
+  text-align: center;
+  color: white;
+  font-weight:100;
+  border-color: white;
+}
+.dispalyfont
+{
+  font-size: 20px;
+}
